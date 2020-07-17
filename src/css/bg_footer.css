@@ -63,15 +63,21 @@
 .upy {
   vertical-align:middle;
   display: inline;
-  margin-right: 0.5em
   }
 
 .footer-a {
   border-bottom:none;
-  color:#999
+  color:#4c4948
   }
 
 .footer-a:hover{
-  color:#999
+  color:#4c4948
   } 
 
+#foot-wrap, #foot-wrap a{
+  color: #4c4948;
+}
+
+.framework-info {
+  display: none;
+}
