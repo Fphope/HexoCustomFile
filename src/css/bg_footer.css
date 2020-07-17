@@ -74,8 +74,8 @@
   color:#4c4948
   } 
 
-#foot-wrap, #foot-wrap a{
-  color: #4c4948;
+#footer-wrap, #footer-wrap a{
+  color: #4c4948 !important;
 }
 
 .framework-info {
