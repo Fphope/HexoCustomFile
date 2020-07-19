@@ -10,10 +10,10 @@ links = [
   },
 ]
 
-link = {
-  init: function(links, className) {
+stars = {
+  init: function(stars, className) {
     var that = this
-      links.forEach(function (element) {
+      stars.forEach(function (element) {
         var url = element.url
         var className = element.className
         $.getJSON(url,
@@ -34,15 +34,15 @@ link = {
   }
 }
 
-// link.init(links)
+// stars.init(links)
 
-// link.init("./mine.json", ".mine")
-// link.init("./docs.json", ".docs")
-// link.init("./code.json", ".code")
-// link.init("./skill.json", ".skill")
-// link.init("./school.json", ".school")
-// link.init("./community.json", ".community")
-// link.init("./serve.json", ".serve")
-// link.init("./sitetool.json", ".sitetool")
-// link.init("./design.json", ".design")
-// link.init("./tools.json", ".tools")
+// stars.init("./mine.json", ".mine")
+// stars.init("./docs.json", ".docs")
+// stars.init("./code.json", ".code")
+// stars.init("./skill.json", ".skill")
+// stars.init("./school.json", ".school")
+// stars.init("./community.json", ".community")
+// stars.init("./serve.json", ".serve")
+// stars.init("./sitetool.json", ".sitetool")
+// stars.init("./design.json", ".design")
+// stars.init("./tools.json", ".tools")

@@ -1,5 +1,5 @@
 // 多个JSON数组文件多次调用
-link = {
+stars = {
   init: function(url, className) {
     var that = this
     $.getJSON(url,
@@ -19,13 +19,13 @@ link = {
   }
 }
 
-// link.init("./mine.json", ".mine")
-// link.init("./docs.json", ".docs")
-// link.init("./code.json", ".code")
-// link.init("./skill.json", ".skill")
-// link.init("./school.json", ".school")
-// link.init("./community.json", ".community")
-// link.init("./serve.json", ".serve")
-// link.init("./sitetool.json", ".sitetool")
-// link.init("./design.json", ".design")
-// link.init("./tools.json", ".tools")
+// stars.init("./mine.json", ".mine")
+// stars.init("./docs.json", ".docs")
+// stars.init("./code.json", ".code")
+// stars.init("./skill.json", ".skill")
+// stars.init("./school.json", ".school")
+// stars.init("./community.json", ".community")
+// stars.init("./serve.json", ".serve")
+// stars.init("./sitetool.json", ".sitetool")
+// stars.init("./design.json", ".design")
+// stars.init("./tools.json", ".tools")

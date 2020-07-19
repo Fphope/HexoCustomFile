@@ -1,5 +1,5 @@
 // 采用一个多对象JSON文件存储所有数据的方式
-link = {
+stars = {
   init: function(url) {
     var that = this;
     //这里设置的是 json 文件路径
@@ -24,7 +24,7 @@ link = {
   }
 }
 // 传入json文件的路径
-link.init("./allStars.json")
+stars.init("./allStars.json")
 
 
 
