@@ -24,7 +24,7 @@ link = {
   }
 }
 // 传入json文件的路径
-link.init("./type.json")
+link.init("./allStars.json")
 
 
 
