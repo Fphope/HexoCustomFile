@@ -2,7 +2,6 @@
 stars = {
   init: function(url) {
     var that = this;
-    //这里设置的是 json 文件路径
     $.getJSON(url,
       function(data){
         for(var className in data){
