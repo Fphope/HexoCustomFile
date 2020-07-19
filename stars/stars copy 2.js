@@ -11,7 +11,7 @@ links = [
 ]
 
 stars = {
-  init: function(stars, className) {
+  init: function(links, className) {
     var that = this
       stars.forEach(function (element) {
         var url = element.url
@@ -34,7 +34,7 @@ stars = {
   }
 }
 
-// stars.init(links)
+stars.init(links)
 
 // stars.init("./mine.json", ".mine")
 // stars.init("./docs.json", ".docs")
