@@ -4,10 +4,6 @@
   display: none;
 }
 
-#vcomment textarea {
-  background: url(https://cdn.jsdelivr.net/gh/constown/picgo/img/20200718155041.png) 100% 100% no-repeat;
-}
-
 .vsys{
   display:none !important;
 }
